@@ -16,8 +16,6 @@
 
 THIS_DIR=$(dirname $(readlink -nf ${BASH_SOURCE[0]}))
 
-chmod 644 /etc/guestconfig/configmeta.json
-
 mkdir -p /var/log/guestconfig
 mkdir -p /opt/guestconfig
 chmod a+X /opt/guestconfig /var/log/guestconfig
